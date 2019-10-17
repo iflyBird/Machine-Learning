@@ -23,7 +23,7 @@ import matplotlib as mpl
 def iris_type(s):
     it = {b'Iris-setosa':0, b'Iris-versicolor':1, b'Iris-virginica':2}
     return it[s]
-#加载数据
+#加载数据集
 #加载数据
 data_path='.//home/iris.data'          #数据文件的路径
 data = np.loadtxt(data_path,                                #数据文件路径
